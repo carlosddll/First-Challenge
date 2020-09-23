@@ -1,0 +1,138 @@
+*{
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(../images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 10rem;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+/* Principal Title */
+/* ------------------- */
+
+.principal-title{
+    font-size: 3.6rem;
+    letter-spacing: -2px;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.principal-text{
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: -1px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* Box Rate */
+/* ------------------- */
+
+.container-rated{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-rated{
+    width: 96%;
+    max-width: 500px;
+    height: 80px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 15px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-container{
+    margin-bottom: 10px;
+}
+
+.subtitle-rated{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+/* Box Testimonials */
+/* ------------------- */
+
+.container-testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box-testimonial{
+    width: 96%;
+    max-width: 500px;
+    height: 250px;
+    background: hsl(300, 43%, 22%);
+    border-radius: 15px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-profile{
+    margin-top: 35px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photo-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.container-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.name-profile{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.subname-profile{
+    margin: 5px;
+    color: hsl(333, 80%, 67%);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.description-profile{
+    color: white;
+    width: 80%;
+    margin-top: 24px;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
